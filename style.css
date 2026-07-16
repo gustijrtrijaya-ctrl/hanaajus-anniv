@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins;
+}
+
+body{
+    background:#f7ece6;
+    color:#4a3428;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.35),
+    rgba(0,0,0,.35)),
+    url("foto5.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    text-align:center;
+    color:white;
+}
+
+.overlay h1{
+    font-size:55px;
+    font-family:'Playfair Display';
+}
+
+.overlay button{
+
+    margin-top:30px;
+    padding:15px 35px;
+
+    border:none;
+    border-radius:40px;
+
+    background:#8b5e3c;
+    color:white;
+
+    cursor:pointer;
+}
+
+#content{
+    display:block;
+    padding:50px 25px;
+}
+
+.letter{
+
+    background:white;
+    border-radius:30px;
+
+    padding:35px;
+    line-height:2;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.title{
+    text-align:center;
+    margin-top:80px;
+}
+
+.gallery{
+
+    display:grid;
+    grid-template-columns:1fr;
+    gap:25px;
+
+    margin-top:40px;
+}
+
+.gallery img{
+
+    width:100%;
+    border-radius:25px;
+}
+
+.video{
+
+    margin-top:80px;
+    text-align:center;
+}
+
+.video video{
+
+    width:100%;
+    border-radius:25px;
+
+    margin-top:20px;
+}
+
+.ending{
+
+    text-align:center;
+    margin-top:100px;
+    padding-bottom:100px;
+}
+
+.ending h1{
+    font-size:80px;}
